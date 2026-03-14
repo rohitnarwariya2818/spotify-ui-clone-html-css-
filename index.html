@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logo.png" />
+    <title>Spotify-webplayer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <div class="logo">
+          <img src="Assets/logo.png" alt="log" height="45px" width="45px" />
+        </div>
+
+        <div class="homebtn">
+          <i class="fa-solid fa-house"></i>
+        </div>
+
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="what you want to play" />
+        </div>
+
+        <div class="psd">
+          <button type="button">Premium</button>
+          <button type="button">Support</button>
+          <button type="button">Downlod</button>
+          <span id="hold">|</span>
+
+          <i class="fa-solid fa-download"></i>
+          <button type="button" id="insbtn">Install</button>
+          <button type="button" id="insbtn">Singn- in</button>
+          <button type="button" id="logbtn">Log-in</button>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="labtab">
+          <div class="labi">
+            <img src="Assets/library_icon.png" alt="" height="25px" width="25px" />
+          </div>
+          <div class="yourlib">Your libaray</div>
+          <div class="creatbtn" style="background-color: transparent">
+            <button type="button" id="createbtn">
+              <i
+                class="fa-solid fa-plus"
+                style="background-color: transparent"
+              ></i
+              >create
+            </button>
+          </div>
+        </div>
+
+        <div class="tab1">
+          <div class="card">
+            <div class="linei">Create your first playlist</div>
+            <div class="lineii">it's easy we'll play you</div>
+            <button type="button" id="btn">Create playlist</button>
+          </div>
+        </div>
+
+        <div class="tab1">
+          <div class="card">
+            <div class="linei">Let's find some podcast to follow</div>
+            <div class="lineii">we will keep you update</div>
+            <button type="button" id="btn">Browse podcast</button>
+          </div>
+        </div>
+      </div>
+      <div class="maincont">
+        <div class="track">
+          <div class="clas">
+            <h2>Ternding</h2>
+          </div>
+          <div class="card-container">
+            <div class="list-card">
+              <img
+                src="Assets/a4ed4a424e39bc91432cfcee14248d98.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">fire-man</p>
+              <p class="track-info">losyt</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/Cigarettes after sex album redraw.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">K</p>
+              <p class="track-info">cigarettes after sex</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/golden brown.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">Golden brown</p>
+              <p class="track-info">The stranglers</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/Bayaan.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">Bayaan</p>
+              <p class="track-info">Bayaan</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/chaar diwaari ok.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">Parvana</p>
+              <p class="track-info">Char diwari</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/न mixtape.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">Nanchak</p>
+              <p class="track-info">Seedh Maut,MCstan</p>
+            </div>
+
+            
+          </div>
+
+          <div class="artist">
+            <h2>Artist</h2>
+          </div>
+          <div class="card-container">
+            <div class="list-card-c">
+              <img
+                src="Assets/kishor.jpg"
+                class="card-img-c"
+                alt=""
+              />
+              <p class="track-head" style="padding-top: 10px;">Kishor kumar</p>
+              <p class="track-info"></p>
+            </div>
+
+            <div class="list-card-c">
+              <img
+                src="Assets/a4ed4a424e39bc91432cfcee14248d98.jpg"
+                class="card-img-c"
+                alt=""
+              />
+              <p class="track-head" style="padding-top: 10px;">Weekend</p>
+              <p class="track-info"></p>
+            </div>
+
+
+            <div class="list-card-c">
+              <img
+                src="Assets/Encore ABJ.jpg"
+                class="card-img-c"
+                alt=""
+              />
+              <p class="track-head" style="padding-top: 10px;">Encore ABJ</p>
+              <p class="track-info"></p>
+            </div>
+
+            <div class="list-card-c">
+              <img
+                src="Assets/chaar diwaari ok.jpg"
+                class="card-img-c"
+                alt=""
+              />
+              <p class="track-head" style="padding-top: 10px;">Char diwari</p>
+              <p class="track-info"></p>
+            </div>
+           <div class="list-card-c">
+              <img
+                src="Assets/arpit.jpg"
+                class="card-img-c"
+                alt=""
+              />
+              <p class="track-head" style="padding-top: 10px;">Arpit Bala</p>
+              <p class="track-info"></p>
+            </div>
+
+          
+          </div>
+
+
+<div class="alubm">
+          <div class="clas">
+            <h2>Popular albums and singles</h2>
+          </div>
+          <div class="card-container">
+            <div class="list-card">
+              <img
+                src="Assets/HIT ME HARD AND SOFT.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">HIT ME HARD AND SOFT</p>
+              <p class="track-info">Billie eillish</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/DL91FM Album Cover (2025).jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">DL91FM</p>
+              <p class="track-info">troye sivam</p>
+            </div>
+
+             <div class="list-card">
+              <img
+                src="Assets/Cigarettes after sex album redraw.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">Cry </p>
+              <p class="track-info">Cigarettes after sex</p>
+            </div>
+
+             <div class="list-card">
+              <img
+                src="Assets/arpit.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">Keychain lalu</p>
+              <p class="track-info">Arpit bala</p>
+            </div>
+          </div>
+
+
+
+
+           <div class="PODCAST">
+          <div class="clas">
+            <h2>podcast</h2>
+          </div>
+          <div class="card-container">
+            <div class="list-card">
+              <img
+                src="Assets/A List of the Only Podcasts Worth Your Energy This Year.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">worth your energy</p>
+              <p class="track-info">XYZ</p>
+            </div>
+
+            <div class="list-card">
+              <img
+                src="Assets/Troye Sivan _ Youth.jpg"
+                class="card-img"
+                alt=""
+              />
+              <p class="track-head">youth</p>
+              <p class="track-info">troye sivan</p>
+            </div>
+          </div>
+
+
+          
+
+
+        </div>
+      </div>
+      <div class="musicplay">
+        <div class="text-group">
+    <p class="preview-text">Preview of Spotify</p>
+    <p class="signup-desc">
+      Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.
+    </p>
+  </div>
+
+  <button class="signup-button">Sign up free</button>
+      </div>
+    </div>
+  </body>
+</html>
