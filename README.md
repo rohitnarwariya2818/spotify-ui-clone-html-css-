@@ -7,5 +7,5 @@ this includes sidebar, navbar ,music libarary section, and suggestion.
 technologies:
 HTML
 CSS
-
+# hero
 
